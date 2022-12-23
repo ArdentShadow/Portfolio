@@ -76,6 +76,7 @@ h6 { font-size: 16px;}
 .main-container{
 	width: 1200px;
 	margin: 0 auto;
+  flex-wrap: nowrap;
 }
 
 
@@ -223,7 +224,7 @@ h6 { font-size: 16px;}
 
 .post-wrapper{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 1250px);
+	grid-template-columns: repeat(auto-fit, 320px);
 	gap:20px;
 	justify-content: center;
 	padding-bottom: 50px;
@@ -236,9 +237,6 @@ h6 { font-size: 16px;}
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 }
 
-.post1 {
-flex-grow: 4 0 0;
-}
 
 .thumbnail{
 	display: block;
