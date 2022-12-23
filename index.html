@@ -1,36 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=`, initial-scale=1.0">
-    <title>Ryan Lierman Portfolio</title>
-   <link rel="stylesheet" type="text/css" href="./style.css" />
+	<title>Ryan Lierman</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
-    <header>
-        <div class="head1">Ryan Lierman</div>
-        <div class="head2">Start to new things</div>
-    </header>
-      
-    <!-- Menu Navigation Bar -->
-    <nav class="menu">
-        <a href="#home">HOME</a>
-        <a href="#news">NEWS</a>
-        <a href="#notification">NOTIFICATIONS</a>
-        <div class="menu-log">
-            <a href="#login">LOGIN</a>
-        </div>
-      </nav>
-      
-    <!-- Body section -->
-    <main class = "body_sec">
-        <section id="Content">
-            <h3>Content section</h3>
-        </section>
-      </main>
-      
-    <!-- Footer Section -->
-    <footer>Footer Section</footer>
+
+	<section class="s1">
+		<div class="main-container">
+			<div class="greeting-wrapper">
+				<h1>Hello I am Ryan Lierman</h1>
+			</div>
+
+			<div class="intro-wrapper">
+				<div class="nav-wrapper">
+
+					<ul id="navigation">
+						<li><a href="index.html#About-Me">About</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+
+					</ul>
+				</div>
+				<div class="left-column">
+					<p id="settings-note">More will be added in the future<br>Look forward to seeing you again</p>
+				</div>
+				<div class="right-column">
+					<div id="preview-shadow">
+						<div id="preview">
+							<div id="corner-tl" class="corner"></div>
+							<div id="corner-tr" class="corner"></div>
+							<h3>My current status</h3>
+							<p>I am currently a student taking classes to increase my experience and skill.</p>
+							<div id="corner-br" class="corner"></div>
+							<div id="corner-bl" class="corner"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="about-me" class="s2">
+		<div class="main-container">
+
+			<div class="about-wrapper">
+				<div class="about-me">
+					<h4>More about me</h4>
+					<p>Since I was a young kid I have grown up surrounded by technology</p>
+					<p>My curiosity was first peaked when I would watch my father write in a language that I could understand the characters but not the actual message and I would ask countless questions to try to understand what he was chipping away at.</p>
+					
+          <hr>
+
+					<h4>TOP EXPERTISE</h4>
+
+					<p>These are some of the languages I have experience in the list is ordered in most to least comfy.</p>
+
+					<div id="skills">
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>Git</li>
+							<li>TBD</li>
+						</ul>
+
+						<ul>
+							<li>TBD</li>
+							<li>TBD</li>
+							<li>TBD</li>
+							<li>TBD</li>
+							<li>TBD</li>
+						</ul>
+
+					</div>
+
+				</div>
+				<div class="selfie">
+					<img id="selfie" src="Assets/Selfie.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="projects" class="s1">
+		<div class="main-container">
+			<h3 style="text-align: center;">Some of my past projects</h3>
+
+			<div class="post-wrapper">
+
+				<div>
+					<div class="post1">
+						<a href=" https://ardentshadow.github.io/Challenge-1/"><img class="thumbnail" src="Assets/1.jpg"></a>
+						<div class="post-preview">
+							<h6 class="post-title">Debugging assignment</h6>
+							<p class="post-intro"> This is a project where I had to debug code but keep the website looking the way the customer wanted it</p>
+							<a href="post.html">Read More</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div>
+					<div class="post2">
+            <a href=""><img src="Assets/2.jpg"></a>
+						<div class="post-preview">
+							<h6 class="post-title">To be determined</h6>
+
+							<p class="post-intro">This project has not yet been added so it does not currently exsist</p>
+							<a href="post.html">Read More</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div>
+					<div class="post3">
+            <a href=""><img class="thumbnail" src="Assets/3.png"></a>
+						<div class="post-preview">
+							<h6 class="post-title">To be determined</h6>
+							<p class="post-intro">This project has not yet been added so it does not currently exsist</p>
+							<a href="post.html">Read More</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="s2">
+		<div class="main-container">
+			<a href=""></a>
+			<h3 style="text-align: center;">Interested? message me @(email)</h3>
+		</div>
+	</section> 
+
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
